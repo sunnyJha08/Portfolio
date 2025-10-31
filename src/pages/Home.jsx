@@ -4,7 +4,7 @@ import Spacer from "../components/UI/Spacer"
 const HeroSeection =() => {
 
     return(
-        <section className="w-screen bg-blue-200  h-2/4 ">
+        <section className="w-screen h-2/4 ">
             <Spacer/>
             <div className=" leading-tight text-[1.2rem] text-center p-4 h-1/2">
                 <p>Sunny Jha is an independent</p>
