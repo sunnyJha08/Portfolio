@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <header className="text-black w-screen h-1/5 p-2">
+        <header className="text-black w-screen h-[12%] p-4">
             <nav className=" flex w-full h-full">
                 <div className=" w-[20%] flex justify-center items-center p-[0.8rem]">
                     <div className="border-black border-[0.3rem] overflow-hidden  rounded-full">

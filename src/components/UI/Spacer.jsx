@@ -1,6 +1,6 @@
 export default function Spacer() {
 
     return (
-        <div className="w-screen bg-amber-500  h-1/4"></div>
+        <div className="w-screen h-1/4"></div>
     )
 }
