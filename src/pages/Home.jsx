@@ -25,7 +25,7 @@ const HeroSeection =() => {
 export default function Home(){
 
     return(
-        <div className="w-screen bg-amber-950 h-screen">
+        <div className="w-screen h-screen">
             <Header/>
             <HeroSeection/>
         </div>
