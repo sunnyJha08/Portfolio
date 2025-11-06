@@ -1,5 +1,7 @@
-import { Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
+import Blogs from "./pages/Blogs.jsx";
+import BlogPost from "./pages/BlogPost.jsx";
 
 function App() {
   return (
