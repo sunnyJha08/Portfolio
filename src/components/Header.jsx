@@ -9,7 +9,7 @@ const Header = () => {
             className="w-max h-full flex items-center gap-2 p-2"
             href="http://localhost:5173/">
             <img
-              src="../../../public/assets/logo.png"
+              src="src/assets/logo.png"
               alt="Logo"
               className="h-auto max-w-[2.2rem]  rounded-full"
             />
