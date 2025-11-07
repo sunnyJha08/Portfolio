@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="flex">
         <div className="w-2/4">
           <a
-            className="w-max h-auto flex items-center gap-2 p-2"
+            className="w-max h-full flex items-center gap-2 p-2"
             href="http://localhost:5173/">
             <img
               src="../../../public/assets/logo.png"
