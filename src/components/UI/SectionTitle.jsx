@@ -1,7 +1,7 @@
-export default function SectionTitle() {
+export default function SectionTitle({ props }) {
   return (
     <div className="h-auto w-screen">
-      <h3 className="p-2 text-4xl font-semibold">Projects</h3>
+      <h3 className="px-6 text-3xl font-semibold">{props}</h3>
     </div>
   );
 }
