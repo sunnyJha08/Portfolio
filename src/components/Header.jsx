@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm.jsx";
 
 function Header() {
   return (
-    <div className="max-w-full h-auto">
+    <div className="max-w-screen h-auto">
       <nav className="flex">
         <div className="w-2/4">
           <Link
