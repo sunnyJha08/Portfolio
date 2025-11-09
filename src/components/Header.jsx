@@ -3,12 +3,13 @@ import ContactForm from "./ContactForm.jsx";
 
 function Header() {
   return (
-    <div className="max-w-screen h-auto">
+    <div className="h-auto max-w-screen">
       <nav className="flex">
         <div className="w-2/4">
           <Link
-            className="w-max h-full flex items-center gap-2 p-2"
-            href="http://192.168.0.100:5173/">
+            className="flex h-full w-max items-center gap-2 p-2"
+            href="http://192.168.0.100:5173/"
+          >
             <img
               src="src/assets/logo.png"
               alt="Logo"
@@ -17,10 +18,11 @@ function Header() {
             <p className="text-lg font-medium tracking-tighter">Sunny jha</p>
           </Link>
         </div>
-        <div className="w-2/4 flex justify-end items-center gap-4 p-4 text-lg  font-light">
+        <div className="flex w-2/4 items-center justify-end gap-4 p-4 text-lg font-light">
           <Link
             className="hover:text-gray-400"
-            to="http://192.168.0.100:5173/blogs">
+            to="http://192.168.0.100:5173/blogs"
+          >
             Blogs
           </Link>
           <button className="cursor-pointer hover:text-gray-400">
