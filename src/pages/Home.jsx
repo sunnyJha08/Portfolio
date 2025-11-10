@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection.jsx";
 import SectionTitle from "../components/UI/SectionTitle.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
 import AboutMeCard from "../components/AboutMeCard.jsx";
+import FeaturedBlogs from "../components/UI/FeaturedBlogs.jsx";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       />
       <SectionTitle props={"About me"} />
       <AboutMeCard />
+      <SectionTitle props={"Blogs"} />
+      <FeaturedBlogs />
     </div>
   );
 }
