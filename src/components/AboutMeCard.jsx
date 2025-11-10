@@ -1,6 +1,6 @@
 export default function AboutMeCard() {
   return (
-    <div className="mx-6 mt-4 mb-8 h-auto max-w-screen">
+    <div className="mx-6 mt-4 mb-8 h-auto max-w-screen" id="about-me">
       <img
         src="src/assets/logo.png"
         alt="Profile picture"
