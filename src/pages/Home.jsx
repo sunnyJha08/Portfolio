@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import HeroSection from "../components/HeroSection.jsx";
 import SectionTitle from "../components/UI/SectionTitle.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
+import AboutMeCard from "../components/AboutMeCard.jsx";
+
 export default function Home() {
   return (
     <div>
@@ -20,6 +22,8 @@ export default function Home() {
         src={"src/assets/jonatan-pie-h8nxGssjQXs-unsplash.jpg"}
         alt={"Project 3"}
       />
+      <SectionTitle props={"About me"} />
+      <AboutMeCard />
     </div>
   );
 }

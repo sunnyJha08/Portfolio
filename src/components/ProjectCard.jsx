@@ -1,6 +1,6 @@
 export default function ProjectCard({ src, alt }) {
   return (
-    <div className="mx-6 mt-4 mb-10 max-w-full rounded-sm bg-stone-100 p-5 shadow-md">
+    <div className="mx-6 mt-4 mb-10 h-auto max-w-full cursor-pointer rounded-sm bg-stone-100 p-5 shadow-md">
       <img src={src} alt={alt} className="h-auto w-full rounded-lg" />
       <div className="mt-5">
         <div className="text-2xl font-semibold">Lorem dolor</div>

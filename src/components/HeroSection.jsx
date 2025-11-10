@@ -7,10 +7,10 @@ export default function HeroSection() {
       </p>
 
       <div className="mt-8 flex justify-center gap-4 overflow-hidden">
-        <button className="rounded-md border-2 border-black p-2">
+        <button className="cursor-pointer rounded-md border-2 border-black p-2">
           About me
         </button>
-        <button className="rounded-md border-white bg-black p-2 text-white">
+        <button className="cursor-pointer rounded-md border-white bg-black p-2 text-white">
           Get in touch
         </button>
       </div>
