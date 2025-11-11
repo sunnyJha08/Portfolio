@@ -28,7 +28,6 @@ export default function Home() {
       <AboutMeCard />
       <SectionTitle props={"Blogs"} />
       <FeaturedBlogs />
-      <SectionTitle props={"Contact Me"} />
       <MiniContactSection />
     </div>
   );
