@@ -3,13 +3,13 @@ export default function () {
     <div className="mx-6 max-w-screen rounded-sm bg-stone-100 p-5">
       <div>
         <p className="text-3xl font-semibold">Let's Talk</p>
-        <p className="text-lg font-semibold">
+        <p className="mb-2 text-lg font-semibold text-neutral-500">
           Drop in your email ID and I will get back to you.
         </p>
       </div>
       <hr />
       <div>
-        <form method="post" className="relative">
+        <form method="post" className="relative my-2">
           <input
             type="email"
             placeholder="sunny.aayu08@gmail.com"
