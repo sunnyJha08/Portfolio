@@ -4,6 +4,7 @@ import SectionTitle from "../components/UI/SectionTitle.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
 import AboutMeCard from "../components/AboutMeCard.jsx";
 import FeaturedBlogs from "../components/UI/FeaturedBlogs.jsx";
+import MiniContactSection from "../components/UI/MiniContactSection.jsx";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       <AboutMeCard />
       <SectionTitle props={"Blogs"} />
       <FeaturedBlogs />
+      <SectionTitle props={"Contact Me"} />
+      <MiniContactSection />
     </div>
   );
 }
