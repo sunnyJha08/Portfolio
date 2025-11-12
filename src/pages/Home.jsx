@@ -5,6 +5,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
 import AboutMeCard from "../components/AboutMeCard.jsx";
 import FeaturedBlogs from "../components/UI/FeaturedBlogs.jsx";
 import MiniContactSection from "../components/UI/MiniContactSection.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <SectionTitle props={"Blogs"} />
       <FeaturedBlogs />
       <MiniContactSection />
+      <Footer />
     </div>
   );
 }
