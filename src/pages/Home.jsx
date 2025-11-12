@@ -6,28 +6,22 @@ import AboutMeCard from "../components/AboutMeCard.jsx";
 import FeaturedBlogs from "../components/UI/FeaturedBlogs.jsx";
 import MiniContactSection from "../components/UI/MiniContactSection.jsx";
 import Footer from "../components/Footer.jsx";
+import proj1 from "../assets/ian-dooley-DuBNA1QMpPA-unsplash.jpg";
+import proj2 from "../assets/jonatan-pie-3l3RwQdHRHg-unsplash.jpg";
+import proj3 from "../assets/jonatan-pie-h8nxGssjQXs-unsplash.jpg";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <HeroSection />
-      <SectionTitle props={"Projects"} />
-      <ProjectCard
-        src={"src/assets/ian-dooley-DuBNA1QMpPA-unsplash.jpg"}
-        alt={"Project 1"}
-      />
-      <ProjectCard
-        src={"src/assets/jonatan-pie-3l3RwQdHRHg-unsplash.jpg"}
-        alt={"Project 2"}
-      />
-      <ProjectCard
-        src={"src/assets/jonatan-pie-h8nxGssjQXs-unsplash.jpg"}
-        alt={"Project 3"}
-      />
-      <SectionTitle props={"About me"} />
+      <SectionTitle title={"Projects"} />
+      <ProjectCard src={proj1} alt={"Project 1"} />
+      <ProjectCard src={proj2} alt={"Project 2"} />
+      <ProjectCard src={proj3} alt={"Project 3"} />
+      <SectionTitle title={"About me"} />
       <AboutMeCard />
-      <SectionTitle props={"Blogs"} />
+      <SectionTitle title={"Blogs"} />
       <FeaturedBlogs />
       <MiniContactSection />
       <Footer />
