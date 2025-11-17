@@ -1,1 +1,14 @@
 @import "tailwindcss";
+:root {
+  --background-color: #ffffff;
+  --text-color: #949195;
+  --primary-color: #000000;
+  /* Add more variables for other colors like borders, shadows, etc. */
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --text-color: #918e92;
+    --primary-color: #ffffff;
+  }
+}
