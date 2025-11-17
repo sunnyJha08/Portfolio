@@ -8,7 +8,7 @@ export function Navbar() {
           <img
             src="../../src/assets/profilePic.jpg"
             alt="profile picture"
-            className="h-auto w-10 rounded-full border border-white"
+            className="size-10 rounded-full border border-white object-fill"
           />
         </Link>
       </div>
