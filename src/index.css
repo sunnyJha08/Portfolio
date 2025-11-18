@@ -1,12 +1,13 @@
 /* Load Inter locally */
 @font-face {
-  font-family: "Inter";
-  src: url("../public/fonts/Inter-Regular.woff2") format("woff2");
-  font-weight: 400;
+  font-family: "InterVariable";
+  font-style: normal;
+  src: url("../public/fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Inter";
   src: url("../public/fonts/Inter-Medium.woff2") format("woff2");
   font-weight: 500;
@@ -18,14 +19,14 @@
   src: url("../public/fonts/Inter-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
-}
+} */
 
 /* Import Tailwind v4 */
 @import "tailwindcss";
 
 /* Set Inter as the global font (with fallback) */
 :root {
-  --font-sans: "Inter", sans-serif;
+  --font-sans: "InterVariable", sans-serif;
 }
 
 /* Apply to the entire site */
