@@ -10,7 +10,7 @@ export const Navbar: FC = () => {
   return (
     <div className="sticky top-0 z-50 mx-auto min-h-fit max-w-7xl p-2">
       <nav
-        className="flex items-center justify-between rounded-full p-1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] backdrop-blur-xs sm:p-2 md:p-3 lg:p-4"
+        className="flex items-center justify-between rounded-full p-1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] backdrop-blur-xs sm:p-[0.4rem] md:p-[0.7rem]"
         role="navigation"
         aria-label="Main navigation"
       >
@@ -31,7 +31,7 @@ export const Navbar: FC = () => {
         {/* Navigation Links */}
 
         <div
-          className="flex items-center gap-4 text-base font-semibold text-neutral-500 sm:gap-4 sm:text-lg md:gap-6 md:text-xl lg:gap-8 lg:text-2xl"
+          className="flex items-center gap-4 font-semibold text-neutral-500 sm:gap-4 sm:text-lg md:gap-6 md:text-xl lg:gap-8 lg:text-2xl"
           role="list"
         >
           {links.map((link, idx) => (
