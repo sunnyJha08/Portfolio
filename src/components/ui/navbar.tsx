@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { type FC } from "react";
+import myImageLogo from "../../assets/profilePic.jpg";
 export const Navbar: FC = () => {
   const links = [
     { name: "Projects", to: "/projects", ariaLabel: "View projects" },
@@ -21,7 +22,7 @@ export const Navbar: FC = () => {
           aria-label="Home - Sunny Jha"
         >
           <img
-            src="src/assets/profilePic.jpg"
+            src={myImageLogo}
             alt="Sunny Jha profile"
             className="size-12 rounded-full object-cover sm:size-13 md:size-14 lg:size-15"
             loading="lazy"
