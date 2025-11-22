@@ -14,14 +14,14 @@ export default function Card() {
             <CirclePlay className="mx-auto size-20" />
           </button>
         </div>
-        <div className="flex flex-col gap-3 p-5 tracking-tight">
+        <div className="flex flex-col gap-3 p-5 tracking-tight sm:gap-5 md:gap-6 lg:gap-9">
           <Link
             to={"#"}
             className="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-6xl"
           >
             Spotify
           </Link>
-          <p className="leading-5 text-neutral-500 sm:text-xl lg:text-2xl">
+          <p className="leading-5 text-neutral-500 sm:text-xl sm:leading-6 md:leading-7 lg:text-2xl lg:leading-9">
             Real-time music streaming platform with synchronized playback, live
             chat, and social listening features
           </p>
@@ -29,7 +29,12 @@ export default function Card() {
             <p className="text-sm text-neutral-500 md:text-base lg:text-2xl">
               Technologies
             </p>
-            <div className="bg-black p-6"></div>
+            <div
+              className="h-fit bg-black px-1 py-4 text-white md:px-3 md:py-6 lg:px-5 lg:py-8"
+              id="logo's"
+            >
+              Logo's
+            </div>
           </div>
         </div>
       </div>
