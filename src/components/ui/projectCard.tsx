@@ -1,4 +1,3 @@
-// import { CirclePlay } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Card() {
@@ -28,7 +27,7 @@ export default function Card() {
           </p>
           <p className="grow text-sm text-neutral-400 md:text-base lg:text-lg">
             Technologies
-            <div className="h-full w-full bg-red-600">Logo's carousel</div>
+            <div className="flex h-full w-full items-center bg-red-600"></div>
           </p>
         </div>
       </div>
@@ -43,7 +42,7 @@ export default function Card() {
         <div className="mx-auto flex h-[50%] flex-col gap-2 p-2 tracking-tight md:gap-4 lg:gap-6">
           <Link
             to={"#"}
-            className="text-lg font-extrabold uppercase hover:text-neutral-400 md:text-2xl lg:text-4xl"
+            className="inline-block text-lg font-extrabold uppercase hover:text-neutral-400 md:text-2xl lg:text-4xl"
           >
             Spotify
           </Link>
@@ -53,7 +52,9 @@ export default function Card() {
           </p>
           <p className="grow text-sm text-neutral-400 md:text-base lg:text-lg">
             Technologies
-            <div className="h-full w-full bg-red-600">Logo's carousel</div>
+            <div className="h-full w-full bg-red-600 shadow-md">
+              Logo's carousel
+            </div>
           </p>
         </div>
       </div>
