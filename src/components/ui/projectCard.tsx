@@ -1,87 +1,155 @@
-import { Link } from "react-router-dom";
-
 export default function Card() {
   return (
     <div
-      className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:gap-9"
+      className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 md:grid-cols-2"
       id="projects"
     >
-      <div className="flex h-auto flex-col overflow-hidden rounded-lg shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
-        <div className="h-[50%] w-full content-center bg-neutral-100">
-          <video
-            src="#"
-            poster="https://images.unsplash.com/photo-1762997455163-98123f974331?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
-            className="relative mx-auto h-[90%] rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-          ></video>
-        </div>
-        <div className="mx-auto flex h-[50%] flex-col gap-2 p-2 tracking-tight md:gap-4 lg:gap-6">
-          <Link
-            to={"#"}
-            className="text-lg font-extrabold uppercase hover:text-neutral-400 md:text-2xl lg:text-4xl"
+      <div className="block w-full rounded-xl border p-6 shadow-lg">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          className="block overflow-hidden"
+        >
+          <img
+            className="h-auto w-full rounded-xl object-cover"
+            src="https://images.unsplash.com/photo-1762997455163-98123f974331?w=700&auto=format&fit=crop&q=60"
+            alt="project 1"
+          />
+        </a>
+
+        <a href="https://www.example.com" target="_blank">
+          <h5 className="mt-6 mb-2 text-xl font-semibold tracking-tight hover:text-neutral-400 sm:text-2xl">
+            Streamlining your design process today.
+          </h5>
+        </a>
+
+        <p className="mb-6 text-sm sm:text-base">
+          In today’s fast-paced digital landscape, fostering seamless
+          collaboration among Developers and IT Operations.
+        </p>
+
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          className="inline-flex items-center rounded-xl border px-4 py-2.5 text-sm font-medium shadow-xs focus:ring-4 focus:outline-none"
+        >
+          Github
+          <svg
+            className="ms-1.5 -me-0.5 h-4 w-4 rtl:rotate-180"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
           >
-            Spotify
-          </Link>
-          <p className="leading-tight font-medium text-neutral-400 md:text-xl lg:text-2xl">
-            Real-time music streaming platform with synchronized playback, live
-            chat, and social listening features
-          </p>
-          <p className="grow text-sm text-neutral-400 md:text-base lg:text-lg">
-            Technologies
-            <div className="flex h-full w-full items-center bg-red-600"></div>
-          </p>
-        </div>
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 12H5m14 0-4 4m4-4-4-4"
+            />
+          </svg>
+        </a>
       </div>
-      <div className="flex h-auto flex-col overflow-hidden rounded-lg shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
-        <div className="h-[50%] w-full content-center bg-neutral-100">
-          <video
-            src="#"
-            poster="https://images.unsplash.com/photo-1762997455163-98123f974331?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
-            className="relative mx-auto h-[90%] rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-          ></video>
-        </div>
-        <div className="mx-auto flex h-[50%] flex-col gap-2 p-2 tracking-tight md:gap-4 lg:gap-6">
-          <Link
-            to={"#"}
-            className="inline-block text-lg font-extrabold uppercase hover:text-neutral-400 md:text-2xl lg:text-4xl"
+
+      {/* repeat same block for other cards */}
+
+      <div className="block w-full rounded-xl border p-6 shadow-lg">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          className="block overflow-hidden"
+        >
+          <img
+            className="h-auto w-full rounded-xl object-cover"
+            src="https://images.unsplash.com/photo-1762997455163-98123f974331?w=700&auto=format&fit=crop&q=60"
+            alt="project 1"
+          />
+        </a>
+
+        <a href="https://www.example.com" target="_blank">
+          <h5 className="mt-6 mb-2 text-xl font-semibold tracking-tight hover:text-neutral-400 sm:text-2xl">
+            Streamlining your design process today.
+          </h5>
+        </a>
+
+        <p className="mb-6 text-sm sm:text-base">
+          In today’s fast-paced digital landscape, fostering seamless
+          collaboration among Developers and IT Operations.
+        </p>
+
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          className="inline-flex items-center rounded-xl border px-4 py-2.5 text-sm font-medium shadow-xs focus:ring-4 focus:outline-none"
+        >
+          Github
+          <svg
+            className="ms-1.5 -me-0.5 h-4 w-4 rtl:rotate-180"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
           >
-            Spotify
-          </Link>
-          <p className="leading-tight font-medium text-neutral-400 md:text-xl lg:text-2xl">
-            Real-time music streaming platform with synchronized playback, live
-            chat, and social listening features
-          </p>
-          <p className="grow text-sm text-neutral-400 md:text-base lg:text-lg">
-            Technologies
-            <div className="h-full w-full bg-red-600 shadow-md">
-              Logo's carousel
-            </div>
-          </p>
-        </div>
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 12H5m14 0-4 4m4-4-4-4"
+            />
+          </svg>
+        </a>
       </div>
-      <div className="flex h-auto flex-col overflow-hidden rounded-lg shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
-        <div className="h-[50%] w-full content-center bg-neutral-100">
-          <video
-            src="#"
-            poster="https://images.unsplash.com/photo-1762997455163-98123f974331?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
-            className="relative mx-auto h-[90%] rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-          ></video>
-        </div>
-        <div className="mx-auto flex h-[50%] flex-col gap-2 p-2 tracking-tight md:gap-4 lg:gap-6">
-          <Link
-            to={"#"}
-            className="text-lg font-extrabold uppercase hover:text-neutral-400 md:text-2xl lg:text-4xl"
+
+      {/* repeat same block for other cards */}
+
+      <div className="block w-full rounded-xl border p-6 shadow-lg">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          className="block overflow-hidden"
+        >
+          <img
+            className="h-auto w-full rounded-xl object-cover"
+            src="https://images.unsplash.com/photo-1762997455163-98123f974331?w=700&auto=format&fit=crop&q=60"
+            alt="project 1"
+          />
+        </a>
+
+        <a href="https://www.example.com" target="_blank">
+          <h5 className="mt-6 mb-2 text-xl font-semibold tracking-tight hover:text-neutral-400 sm:text-2xl">
+            Streamlining your design process today.
+          </h5>
+        </a>
+
+        <p className="mb-6 text-sm sm:text-base">
+          In today’s fast-paced digital landscape, fostering seamless
+          collaboration among Developers and IT Operations.
+        </p>
+
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          className="inline-flex items-center rounded-xl border px-4 py-2.5 text-sm font-medium shadow-xs focus:ring-4 focus:outline-none"
+        >
+          Github
+          <svg
+            className="ms-1.5 -me-0.5 h-4 w-4 rtl:rotate-180"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
           >
-            Spotify
-          </Link>
-          <p className="leading-tight font-medium text-neutral-400 md:text-xl lg:text-2xl">
-            Real-time music streaming platform with synchronized playback, live
-            chat, and social listening features
-          </p>
-          <p className="grow text-sm text-neutral-400 md:text-base lg:text-lg">
-            Technologies
-            <div className="h-full w-full bg-red-600">Logo's carousel</div>
-          </p>
-        </div>
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 12H5m14 0-4 4m4-4-4-4"
+            />
+          </svg>
+        </a>
       </div>
     </div>
   );
