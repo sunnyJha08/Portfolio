@@ -33,3 +33,19 @@
 html {
   font-family: var(--font-sans);
 }
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroller-animate {
+  animation: scroll 40s linear infinite;
+}
+
+.scroller-animate:hover {
+  animation-play-state: paused;
+}
