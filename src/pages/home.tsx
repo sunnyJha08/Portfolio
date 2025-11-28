@@ -2,6 +2,7 @@ import HeroSection from "../components/heroSection";
 import Card from "../components/ui/projectCard";
 import InfiniteLogosCarousel from "../components/ui/infiniteLogosCarousel";
 import SectionTitle from "../components/ui/sectionTitle";
+import BlogsLists from "../components/ui/blogsLists";
 export default function Home() {
   return (
     <div className="mx-auto flex h-auto max-w-7xl flex-col gap-6 p-2">
@@ -11,6 +12,7 @@ export default function Home() {
 
       <Card />
       <SectionTitle text={"Blogs"} />
+      <BlogsLists />
     </div>
   );
 }
